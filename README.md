@@ -1,1 +1,0 @@
-# bnmin.github.io
