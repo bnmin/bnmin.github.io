@@ -1,0 +1,302 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>COMP 150: Natural Language Processing</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="./styles/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="./styles/style.css" rel="stylesheet" type="text/css" media="screen" />
+<style>
+.hw { color: red }		
+.hw a { color: red }		
+</style>
+</head>
+<body bgcolor=#6D7B8D align="justify">
+<div id="container">
+<div id="content">
+<h1 align="center">COMP 150: Natural Language Processing</h1> <hr>
+
+<h3><u>Course Information</u></h3>
+<ul>
+<li><p><b>Instructor:</b> <a href="https://bnmin.github.io/">Bonan Min</a></p>
+</li>
+<li><p><b>Office hours:</b> TBD </p>
+</li>
+<li><p><b>Class meets:</b> TR 6:00p-7:15p in TBD</p>
+</li>
+<li><p><b>Discussion Forum:</b> TBD </p>
+</li>
+<li><p><b>Homework Submissions:</b> TBD </p>
+</li>
+</li>
+<li><p><b>Regular announcements:</b> TBD </p>
+</li>
+</ul>
+
+<hr>
+
+<h3><u>Course Description</u></h3> 
+An enormous amount of text (news articles, weblog, tweets) is created every day. 
+Natural language processing transforms text into presumably useful data structures, 
+enabling many applications such as real-time event tracking and question answering. 
+In this course, we will study the mathematics and algorithms in NLP to better understand 
+how they do what they do. We will cover a wide range of text analysis methods, 
+include word level (topic and sentiment analysis), syntactical (grammars and parsing), 
+semantic (meanings of words and phrases), and discourse (pronoun resolution and text 
+structure). We will cover both rule-base systems and statistical models. We will code 
+several algorithms applying what we learn in hands-on projects. We will come away with 
+a deeper understanding of how text is processed by a computer.
+<br><br>
+
+This course will cover several levels of text analysis and understanding, including word and phrase level analysis (document retrieval and text classification), syntactic analysis (grammars and parsing), semantic analysis (word and sentence meaning), and discourse analysis (pronoun resolution and text structure). 
+Students will learn to use such techniques to solve different NLP problems, including part of speech tagging, language modeling, sentiment analysis, information extraction, (visual) question answering, machine translation and text generation. 
+While the main technologies will be introduced, we will focus more on the machine learning methods, especially deep learning, to approach such problems. In recent years, machine learning and deep learning have obtained very high performance for these tasks and become the major tools the solve NLP problems.
+
+<hr>
+
+<h3><u>Tentative Schedule</u></h3>
+	
+	<table class="tg">
+	<tr>
+	<th>Dates</th>
+	<th>Topics</th>
+	<th>Supplementary Resources</th>
+	<th>Assignments/Projects</th>
+    </tr>
+
+	<tr>
+	<th>1/16</th>
+	<td>Intro (<a href="notes/intro.pdf">Slides</a>)</td>
+	<td></td>
+	<td></td>
+	</tr>
+	
+	<tr>
+	<th>1/21, 1/23</th>
+	<td>Bag of Word Models and Machine Learning basics</td>
+	<td></td>
+	<td>Assignment #1</td>
+	</tr>
+	
+	<tr>
+	<th>1/28, 1/30</th>
+	<td>Part of Speech Tagging and Sequential Labeling (HMM, MEMM, CRF and RNN) </td>
+	<td>http://www.cs.columbia.edu/~mcollins/fb.pdf</td>
+	<td></td>
+	</tr>
+	
+	<tr>
+	<th>2/4, 2/6</th>
+	<td>Lexical semantics: WordNet, distributional analysis, and word embeddings</td>
+	<td></td>
+	<td>Assignment #2</td>
+	</tr>
+	
+	<tr>
+	<th>2/11, 2/13</th>
+	<td>Machine Learning tutorials (MLP, CNN, RNN for text classification) by Andrew Valenti, Language Modeling</td>
+	<td></td>
+	<td></td>
+	</tr>
+	
+	<tr>
+	<th>2/18, 2/20</th>
+	<td>Language Modeling con'd. Syntax, Constituent and Dependency Parsing</td>
+	<td></td>
+	<td>Assignment #3</td>
+	</tr>
+
+	<tr>
+	<th>2/25, 2/27</th>
+	<td>Syntax, Constituent and Dependency Parsing con'd. Information Extraction Overview</td>
+	<td></td>
+	<td></td>
+	</tr>
+
+	<tr>
+	<th>3/3, 3/5</th>
+	<td>Named Entity Recognition and Entity Linking</td>
+	<td></td>
+	<td>Assignment #4</td>
+	</tr>
+
+
+	<tr>
+	<th>3/10, 3/12</th>
+	<td>Coreference Resolution, WSD, Contextualized Word Embeddings</td>
+	<td>https://nlp.seas.harvard.edu/2018/04/03/attention.html; http://exbert.net/</td>
+	<td></td>
+	</tr>
+
+	<tr>
+	<th>3/17, 3/19</th>
+	<td>Spring break; no class</td>
+	<td></td>
+	<td></td>
+	</tr>
+
+	<tr>
+	<th>3/24, 3/26</th>
+	<td>Relation Extraction</td>
+	<td></td>
+	<td></td>
+	</tr>
+
+	<tr>
+	<th>3/31, 4/2</th>
+	<td>Relation Extraction con'd</td>
+	<td></td>
+	<td>Project proposal</td>
+	</tr>
+
+	<tr>
+	<th>4/7, 4/9</th>
+	<td>Event Extraction</td>
+	<td></td>
+	<td></td>
+	</tr>
+
+	<tr>
+	<th>4/14, 4/16</th>
+	<td>Automatic Knowledge Base Population, Beyond Pipeline Models</td>
+	<td></td>
+	<td></td>
+	</tr>
+
+	<tr>
+	<th>4/21, 4/23</th>
+	<td>Machine Translation</td>
+	<td></td>
+	<td></td>
+	</tr>
+
+	<tr>
+	<th>4/28, 4/30</th>
+	<td>Reading period; no class </td>
+	<td></td>
+	<td></td>
+	</tr>
+
+	<tr>
+	<th>5/5 or 5/7</th>
+	<td>Final project presentation</td>
+	<td></td>
+	<td>Project due</td>
+	</tr>
+		
+	</table>
+
+
+<h3><u>Textbooks and supplementary materials</u></h3>
+
+The primary textbook is <a href="https://www.pearson.com/us/higher-education/program/Jurafsky-Speech-and-Language-Processing-2nd-Edition/PGM181706.html">Speech and Language Processing, 2nd Edition</a> (SLP2), by Daniel Jurafsky and James H. Martin. A few chapters of the draft 3rd edition (SLP3) is available <a href="https://web.stanford.edu/~jurafsky/slp3/">online</a>. Whenever available, we highly encourage you to read the draft chapters in SLP3 since they introduce newer methods for NLP that have become standard nowadays. 
+
+<br><br> 
+
+You are encouraged to read papers in <a href="https://www.aclweb.org/anthology/">the ACL Anthology</a> to read up-to-date papers on NLP.
+
+<br><br> 
+
+An excellent book for deep learning is <a href="https://www.deeplearningbook.org/">Deep Learning</a>, by Ian Goodfellow, Yoshua Bengio and Aaron Courville. 
+
+	</ul>
+ 
+ <br><br> 
+ 
+<hr>
+
+<h3><u>Evaluation</u></h3>
+<p>Grades will be determined by the following measures:</p>
+<ul>
+<li><p>Homework (50%). 4 assignment (10-15% each). Assignments can be written assignments or programming assigments involving implementation and experimentation with natural language processing problems. These are individual projects.</p>
+</li>
+<li><p>Project proposal (15%).  Students will need to submit a proposal at least 4 weeks before the final project is due. The intention
+	of the proposal is two-fold: (1) demostrating understanding of an NLP task/problem, (2) describing your plans for
+	the final projects. We highly encourage you to submit this proposal ahead of the time and discuss with the instructor
+	about the feasibility of the final project.
+
+	You can do this yourself, or team-up with your classmates. The team size should be between 1 and 3.
+
+</li>
+<li><p>Final project (35%).  This may involve developing a solution to an existing problem, or defining a new problem & developing
+	a (proof-of-concept) solution. Working on the project early is highly recommended. 
+	Good projects can lead to paper submission at conferences afterward.
+	
+	You will need to <b>submit the code and a written report</b> by the end of the term.
+	
+	The deadline will be in the final exam time of the term.
+</li>
+<li>
+A <b>short project presentation</b> will also be scheduled for each team during final week of the term.
+</li>
+</ul>
+</li>
+</ul>
+
+<hr>
+
+<h3><u>Assignments</u></h3> 
+
+<ul>
+
+<li>
+<p>
+Assignment 1: TBD
+</p>
+</li>
+
+<li>
+<p>
+Assignment 2: TBD
+</p>
+</li>
+
+<li>
+<p>
+Assignment 3:  TBD
+</li>
+
+<li>
+<p>
+Assignment 4: TBD
+</p>
+</li>
+</p>
+</li>
+
+<li>
+<p>
+Final project proposal: TBD
+</p>
+</li>
+<li>
+<p>
+Final project presentation: TBD
+</p>
+</li>
+	
+</ul>
+
+<hr>
+
+<h3><u>Late Policy</u></h3>
+
+All assignments are due by 11:59 pm of the stated due date.
+Assignments will be accepted for up to three days past the due date with a penalty of <b>20% for each (calendar) day</b>.
+
+<hr>
+
+	
+	
+	</br></br>
+
+
+	</div>
+	
+	<hr title="Information about this document">
+<div class="footer">
+<div>This page is based on a template from <a href="https://ix.cs.uoregon.edu/~thien/"> Thien Huu Nguyen</a>.
+</div>
+</div>
+	</body>
+	</html>
